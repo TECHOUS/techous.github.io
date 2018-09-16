@@ -55,6 +55,7 @@ h3
 .section3 h2
 {
   box-sizing: border-box;
+  text-align: center;
 }
 .section3 h1
 {
@@ -65,4 +66,10 @@ h3
 #color-hr
 {
   background: grey;
+}
+i{
+  padding: 16px 16px;
+}
+.jumbotron{
+  text-align: center;
 }
