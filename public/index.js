@@ -7,5 +7,6 @@ image[i].addEventListener("mouseover",function(){
 });
 image[i].addEventListener("mouseout",function(){
   this.style.width = "70%";
+  this.style.transition = "3s";
 });
 }
