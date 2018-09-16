@@ -1,2 +1,2 @@
 # techous.github.io
-The official site for "TechOus" organization
+The official site for "TechOUs" organization
