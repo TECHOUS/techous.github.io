@@ -1,0 +1,44 @@
+#h1-mid
+{
+text-align: center;
+}
+#p-mid
+{
+  text-align: center;
+}
+
+.secton1
+{
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  margin:  0 auto;
+  padding: 40px 10px;
+  font-size: 1.5em;
+  font-style: normal;
+}
+h3
+{
+  font-size: 2em;
+}
+.section2
+{
+  background: #fff;
+}
+
+.section2 h3
+{
+  color: black;
+  text-align:center;
+  margin: 0 auto;
+  padding: 16px 16px;
+  }
+.section2 h1
+{
+  font-family: 'PT Sans', sans-serif;
+}
+  .caption
+  {
+    text-align: center;
+  }
