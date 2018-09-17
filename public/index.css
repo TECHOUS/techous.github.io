@@ -42,6 +42,12 @@ h3
   text-align: center;
 
 }
+.section2 img
+{
+  border: 1px solid black;
+  border-style: inset;
+  border-radius: 10%;
+}
 .caption
 {
     text-align: center;
@@ -51,10 +57,14 @@ h3
   align-items: center;
   padding: 50px 5%;
   text-align: center;
+
 }
 .section3 img
 {
   width: 70%;
+  border-radius: 10%;
+  border: 1px solid black;
+  border-style: inset;
 }
 .section3 h2
 {
@@ -65,7 +75,6 @@ h3
 {
   text-align: center;
   font-family: fantasy;
-  padding: 20px 30px;
 }
 #color-hr
 {
@@ -76,4 +85,5 @@ i{
 }
 .jumbotron{
   text-align: center;
+  margin-top: 50px;
 }
