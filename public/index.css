@@ -1,3 +1,9 @@
+body
+{
+  background: url('../images/back2.jpg');
+  background-attachment: fixed;
+  background-size: auto;
+}
 #h1-mid
 {
 text-align: center;
@@ -24,7 +30,6 @@ h3
 }
 .section2
 {
-  background: #fff;
   text-align: center;
   padding: 16px 16px;
 }
