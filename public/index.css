@@ -75,11 +75,16 @@ h3
 {
   box-sizing: border-box;
   text-align: center;
+  font-size: 40px;
 }
 .section3 h1
 {
   text-align: center;
   font-family: fantasy;
+}
+.section3 p
+{
+  font-size: 2em;
 }
 #color-hr
 {
@@ -91,4 +96,49 @@ i{
 .jumbotron{
   text-align: center;
   margin-top: 50px;
+}
+
+footer{
+  background: black;
+  background-size: cover;
+}
+.text-uppercase
+{
+  color: #fdfdfd;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.contact-us
+{
+  color:#fdfdfd;
+}
+
+footer p
+{
+  padding-top: 10%;
+  color: #fdfdfd;
+}
+
+.email{
+  color: white;
+}
+.links{
+  color:#fdfdfd;
+  font-size: 30px;
+}
+
+.footer-copyright
+{
+  padding-top: 7%;
+  color: #fdfdfd;
+}
+
+.navbar-fixed-top{
+  height: 80px;
+  font-size: 30px;
+  padding-top: 10px;
+}
+.navbar-brand{
+  font-size: 30px;
 }
