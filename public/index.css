@@ -42,6 +42,7 @@ font-family: 'Anton', sans-serif;
     margin-inline-end: 0px;
     font-family: 'EB Garamond', serif;
     text-align: center;
+    color: black;
 }
 h3
 {
@@ -74,7 +75,7 @@ h3
   border-radius: 10%;
 }
 .caption{
-  
+
     text-align: center;
 }
 #cap{
@@ -103,7 +104,7 @@ font-family: 'Indie Flower', cursive;}
 .section3 h1
 {
   text-align: center;
-  
+
 }
 .section3 p
 {
@@ -251,6 +252,7 @@ font-family: 'Indie Flower', cursive;
   margin-left: 0px;
   margin-right: 0px;
   opacity: 0.8;
+  color: black;
 }
 #author-line
 {
