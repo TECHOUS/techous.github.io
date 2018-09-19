@@ -31,6 +31,16 @@ text-align: center;
     display: block;
     overflow: auto;
 }
+.secton1 p
+{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
 h3
 {
   font-size: 2em;
@@ -219,4 +229,22 @@ footer p
 {
   text-align: center;
   position: relative;
+  margin: 0;
+
+}
+#authors
+{
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  opacity: 0.8;
+}
+#author-line
+{
+  border-bottom: 1px solid red;
+  border-width: thick;
 }
