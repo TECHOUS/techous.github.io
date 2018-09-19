@@ -13,4 +13,4 @@ image[i].addEventListener("mouseout",function(){
   this.style.opacity ="0.9";
 
 });
-}
+} 
