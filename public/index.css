@@ -23,6 +23,8 @@ text-align: center;
   margin:  0 auto;
   padding: 40px 10px;
   font-size: 1.5em;
+  color: white;
+font-family: 'Anton', sans-serif;
   font-style: normal;
   display: table;
   width: 100%;
@@ -45,6 +47,7 @@ h3
 {
   font-size: 2em;
 }
+
 .section2
 {
   text-align: center;
@@ -70,10 +73,12 @@ h3
   border-style: inset;
   border-radius: 10%;
 }
-.caption
-{
+.caption{
+  
     text-align: center;
 }
+#cap{
+font-family: 'Indie Flower', cursive;}
 
 .section3{
   align-items: center;
@@ -88,20 +93,22 @@ h3
   border: 1px solid black;
   border-style: inset;
 }
-.section3 h2
+.section3 h3
 {
   box-sizing: border-box;
   text-align: center;
   font-size: 40px;
+  font-family: 'Indie Flower';
 }
 .section3 h1
 {
   text-align: center;
-  font-family: fantasy;
+  
 }
 .section3 p
 {
   font-size: 2em;
+  font-family: 'Indie Flower', cursive;
 }
 #color-hr
 {
@@ -201,6 +208,7 @@ footer p
   font-size: 30px;
     color: #deeef5;
     letter-spacing: 1px;
+font-family: 'Acme', sans-serif;
 }
 #magic
 {
@@ -209,6 +217,7 @@ footer p
     margin-bottom: 10px;
     letter-spacing: 0.5px;
     padding: 10px 10px;
+font-family: 'Indie Flower', cursive;
 }
 #fade{
   opacity: 0.8;
@@ -248,3 +257,8 @@ footer p
   border-bottom: 1px solid red;
   border-width: thick;
 }
+}
+#btnred{
+font-family: 'Acme', sans-serif;}
+#fafa{
+cursor: pointer;}
