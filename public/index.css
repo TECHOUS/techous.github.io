@@ -260,7 +260,11 @@ font-family: 'Indie Flower', cursive;
   border-width: thick;
 }
 }
-#btnred{
-font-family: 'Acme', sans-serif;}
-#fafa{
-cursor: pointer;}
+#btnred
+{
+font-family: 'Acme', sans-serif;
+}
+#fafa
+{
+cursor: pointer;
+}
