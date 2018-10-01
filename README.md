@@ -4,3 +4,4 @@
 *  https://techous.github.io/
 ## The website for the techous members
     * Nidhi Mittal
+    * Aniket Batabyal
