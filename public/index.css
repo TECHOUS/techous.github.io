@@ -3,7 +3,7 @@ html{
 }
 body
 {
-  background: url('../images/back2.jpg');
+  background: url('../images/image1.jpg');
   background-attachment: fixed;
   background-size: auto;
 }
@@ -33,6 +33,17 @@ font-family: 'Anton', sans-serif;
     display: block;
     overflow: auto;
 }
+.secton1 p
+{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    color: black;
+}
 h3
 {
   font-size: 2em;
@@ -41,7 +52,13 @@ h3
 .section2
 {
   text-align: center;
-  padding: 16px 16px;
+  display: table;
+  width: 100%;
+  height: 700px;
+  position: relative;
+  padding: 10px 100px;
+  margin-bottom: 10em;
+  background: white;
 }
 
 .section2 h3
@@ -62,18 +79,25 @@ h3
   border: 1px solid black;
   border-style: inset;
   border-radius: 10%;
+  margin-top: 10em;
+
 }
 .caption{
-  
     text-align: center;
+    color: black;
 }
 #cap{
 font-family: 'Indie Flower', cursive;}
 
 .section3{
+  background: rgb(46, 48, 51);
   align-items: center;
   padding: 50px 5%;
   text-align: center;
+  display: table;
+  width: 100%;
+  height: 700px;
+  position: relative;
 
 }
 .section3 img
@@ -82,6 +106,7 @@ font-family: 'Indie Flower', cursive;}
   border-radius: 10%;
   border: 1px solid black;
   border-style: inset;
+  margin-top: 10em;
 }
 .section3 h3
 {
@@ -89,16 +114,18 @@ font-family: 'Indie Flower', cursive;}
   text-align: center;
   font-size: 40px;
   font-family: 'Indie Flower';
+  color: white;
 }
 .section3 h1
 {
   text-align: center;
-  
+
 }
 .section3 p
 {
   font-size: 2em;
   font-family: 'Indie Flower', cursive;
+  color: white;
 }
 #color-hr
 {
@@ -106,6 +133,7 @@ font-family: 'Indie Flower', cursive;}
 }
 i{
   padding: 16px 16px;
+  color: white;
 }
 .jumbotron{
   text-align: center;
@@ -113,7 +141,7 @@ i{
 }
 
 footer{
-  background: black;
+  background: rgba(34,125,170,1);
   background-size: cover;
 }
 .text-uppercase
@@ -121,17 +149,19 @@ footer{
   color: #fdfdfd;
   font-size: 20px;
   padding-top: 10px;
+font-family: 'Anton', sans-serif;
 }
 
 .contact-us
 {
+font-family: 'Anton', sans-serif;
   color:#fdfdfd;
 }
 
 footer p
 {
   padding-top: 10%;
-  color: #fdfdfd;
+  color: #fdfdf;
 }
 
 .email{
@@ -140,6 +170,7 @@ footer p
 .links{
   color:#fdfdfd;
   font-size: 30px;
+  font-family: 'Anton', sans-serif;
 }
 
 .footer-copyright
@@ -196,18 +227,18 @@ footer p
 #focus-point
 {
   font-size: 30px;
-    color: #deeef5;
-    letter-spacing: 1px;
-font-family: 'Acme', sans-serif;
+  color: #deeef5;
+  letter-spacing: 1px;
+  font-family: 'Acme', sans-serif;
 }
 #magic
 {
   font-size: 14px;
-    color: #aac7d9;
-    margin-bottom: 10px;
-    letter-spacing: 0.5px;
-    padding: 10px 10px;
-font-family: 'Indie Flower', cursive;
+  color: #aac7d9;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  padding: 10px 10px;
+  font-family: 'Indie Flower', cursive;
 }
 #fade{
   opacity: 0.8;
@@ -217,19 +248,81 @@ font-family: 'Indie Flower', cursive;
 {
   text-align: left;
   font-family: 'Raleway', sans-serif;
-  color: rgba(34,125,170,1);
+  color: white;
 }
 #about-creator
 {
-  border-bottom: 1px solid  rgba(34,125,170,1);
+  border-bottom: 1px solid  lime;
   border-width: thick;
 }
 .content
 {
   text-align: center;
   position: relative;
+  margin: 0;
+
 }
-#btnred{
-font-family: 'Acme', sans-serif;}
-#fafa{
-cursor: pointer;}
+#authors
+{
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  opacity: 0.8;
+  color: black;
+
+}
+#author-description
+{
+  margin-top: 1.2em;
+}
+#author-line
+{
+  border-bottom: 1px solid red;
+  border-width: thick;
+}
+}
+#btnred
+{
+font-family: 'Acme', sans-serif;
+}
+#fafa
+{
+cursor: pointer;
+}
+#creator-main
+{
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  color:rgba(34,125,170,1) ;
+}
+
+#about-creator-main
+{
+  border-bottom: 1px solid rgba(34,125,170,1) ;
+  border-width: thick;
+}
+
+.education
+{
+  background: rgba(34,125,170,1);
+  display: table;
+  width: 100%;
+  height: 420px;
+  position: relative;
+}
+
+.education-info
+{
+  text-align: center;
+  color: white;
+  margin-top: 10em;
+}
+
+#btech
+{
+  font-family: 'Acme', sans-serif;
+}
