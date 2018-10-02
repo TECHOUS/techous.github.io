@@ -149,10 +149,12 @@ footer{
   color: #fdfdfd;
   font-size: 20px;
   padding-top: 10px;
+font-family: 'Anton', sans-serif;
 }
 
 .contact-us
 {
+font-family: 'Anton', sans-serif;
   color:#fdfdfd;
 }
 
@@ -168,6 +170,7 @@ footer p
 .links{
   color:#fdfdfd;
   font-size: 30px;
+  font-family: 'Anton', sans-serif;
 }
 
 .footer-copyright
