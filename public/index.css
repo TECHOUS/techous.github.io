@@ -57,7 +57,6 @@ h3
   height: 700px;
   position: relative;
   padding: 10px 100px;
-  margin-bottom: 10em;
   background: white;
 }
 
@@ -325,4 +324,7 @@ cursor: pointer;
 #btech
 {
   font-family: 'Acme', sans-serif;
+}
+.row{
+  padding-top:120px;
 }
