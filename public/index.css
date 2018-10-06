@@ -1,5 +1,5 @@
 html{
-  cursor: crosshair;
+  
 }
 body
 {
@@ -21,17 +21,16 @@ text-align: center;
   background-color: white;
   text-align: center;
   margin:  0 auto;
-  padding: 40px 10px;
   font-size: 1.5em;
   color: white;
-font-family: 'Anton', sans-serif;
+  font-family: 'Anton', sans-serif;
   font-style: normal;
   display: table;
   width: 100%;
   height: 700px;
   padding: 100px 100px;
-    display: block;
-    overflow: auto;
+  display: block;
+  overflow: auto;
 }
 .secton1 p
 {
@@ -86,7 +85,8 @@ h3
     color: black;
 }
 #cap{
-font-family: 'Indie Flower', cursive;}
+font-family: 'Indie Flower', cursive;
+}
 
 .section3{
   background: rgb(46, 48, 51);
@@ -166,7 +166,7 @@ footer p
 .email{
   color: white;
 }
-.links{
+.links-head{
   color:#fdfdfd;
   font-size: 30px;
   font-family: 'Anton', sans-serif;
@@ -276,7 +276,8 @@ footer p
 }
 #author-description
 {
-  margin-top: 1.2em;
+  margin-top : 5em;
+  overflow: hidden;
 }
 #author-line
 {
@@ -318,10 +319,42 @@ cursor: pointer;
 {
   text-align: center;
   color: white;
-  margin-top: 10em;
+  margin-top: 12em;
 }
 
 #btech
 {
   font-family: 'Acme', sans-serif;
+}
+.row{
+  max-width: 100%;
+}
+.links{
+  color: white;
+  padding-right: 30px;
+  list-style-type: none;
+}
+@media(max-width: 500px){
+    .header{
+      width: 565px;
+    }
+    .secton1{
+      width: 565px;
+    }
+    .education{
+      width: 565px;
+    }
+    .section2{
+      width: 565px;
+    }
+    .section3{
+      width: 565px;
+    }
+    .row{
+      padding-left: 35px;
+    }
+    #row1{
+      width: 565px;
+      background-color: #227daa;
+    }
 }
