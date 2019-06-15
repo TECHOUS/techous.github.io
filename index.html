@@ -4,49 +4,69 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>techOus</title>
+
+    <!-- FONT AWESOME STYLES-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- BOOTSTRAP STYLES-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="public/index.css">
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <!-- GOOGLE FONTS APIS -->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-</head>
+  </head>
   <body>
-    <div class="main-section">
-    <section class="intro">
+    <!-- HEADER SECTION -->
+    <header>
+      <div id="main-section">
+        <div class="intro">
+          <h2 onclick="window.location.href='https://github.com/TechOUs'" style="cursor:crosshair;">
+            <i class="fa fa-users"></i>
+            <span id="under">
+              <span id="fade">TECH</span>
+            </span>
+            <strong>'O'</strong>
+            <span id="fade">US</span>
+          </h2>
+        </div>
+        
+        <div class="header">
+          <h1 id="focus-line"> <span id="under">OPE</span>N SOURCE ORGANIZATION </h1>
+          <p id="magic"> where the magic is made </p>
+          <p id="focus-point"> Specializing in small group projects and providing a platform for the newbies </p>
+          <button class="btn btn-large btn-danger" id="btnred" onclick="window.location.href='https://github.com/TechOUs'">Click here to look at our Community </button>
+        </div>
+      </div>
+    </header>
 
-      <h2 onclick="window.location.href='https://github.com/TechOUs'" style="cursor:crosshair;"><i class="fa fa-users"></i><span id="under"><span id="fade">TECH</span></span><strong>'O'</strong><span id="fade">US</span></h2>
-    </section>
-    <section class="header">
-    <h1 id="focus-line"> <span id="under">OPE</span>N SOURCE ORGANIZATION </h1>
-    <p id="magic"> where the magic is made </p>
-    <p id="focus-point"> Specializing in small group projects and providing a platform for the newbies </p>
-    <button class="btn btn-large btn-danger" id="btnred" onclick="window.location.href='https://github.com/TechOUs'">Click here to look at our Community </button>
-  </section>
-  </div>
-
-      <section class="secton1">
-        <h2 id="creator-main">
+    <!-- CREATOR SECTION -->
+    <section class="secton1">
+      <h2 id="creator-main">
         <span id="about-creator-main">CRE</span>ATOR
       </h2>
       <div class="content">
-        <h2><span id="authors"><span id="author-line">Aniket Batabyal</span></span></h2>
-          <p id="author-description"> Studying in Chitkara University ,<br> Aniket Batabyal is a soon to be Computer Science engineer.<br>
-              Creator of the organization known as techOus,<br> he believes that learning should be done in a fun way rather than remembering everything<br>
-              to know more about him click these magical three dots <span id="dots"> ...</span>
+        <h2>
+          <span id="authors">
+            <span id="author-line">Aniket Batabyal</span>
+          </span>
+        </h2>
+        <p id="author-description"> Studying in Chitkara University ,<br> Aniket Batabyal is a soon to be Computer Science engineer.<br>
+          Creator of the organization known as techOus,<br> he believes that learning should be done in a fun way rather than remembering everything<br>
+          to know more about him click these magical three dots <span id="dots"> ...</span>
       </div>
-      </section>
+    </section>
 
-      <div class="education">
-
-        <h2 id="educator">
-          <section class="intro">
-        <span id="under">EDUC</span><span id="fade">ATION</span>
+    <!-- EDUCATION SECTION -->
+    <div class="education">
+      <h2 id="educator" class="intro">
+          <span id="under">EDUC</span><span id="fade">ATION</span>
       </h2>
       <div class="education-info">
         <h1>
@@ -55,165 +75,149 @@
           </span>
         </h1>
         <p id="expected">2020 expected</p>
-
       </div>
-    </section>
-      </div>
-      <section class="section2">
+    </div>
 
+    <!-- PROJECTS SECTION -->
+    <section class="section2">
         <h2 id="creator-main">
           <span id="about-creator-main">PRO</span>JECTS
         </h2>
-          <div class="container-fluid">
-
-            <div class="row" style="display:flex; flex-wrap:wrap;">
-              <div class="col-md-6 col-sm-6">
-                  <img id ="fafa" onclick="location.href='https://github.com/TechOUs/algOrithms'" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQZoRUftitLag-MNErPME7dS-Pmisoc3_ND2TaKwQHToKJKTV7">
-                <h1 class="caption" id ="cap">Algorithms</h1>
-              </div>
-              <div class="col-md-6 col-sm-6">
-                <img id ="fafa" onclick="location.href='https://github.com/TechOUs/Data-Structures'" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0DYw7lLnwQ7XIPqJDqSzMmgP8MgwvULeT5mFvKL6HERKUA15OYQ">
-                <h1 class="caption" id ="cap">Data-Structures</h1>
-              </div>
-              <div class="col-md-6 col-sm-6">
-                <img id ="fafa" onclick="location.href='https://github.com/TechOUs/techous.github.io'" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOYkAgGrttelVru4lfEu44oenZmAuGOxSD27w5DFS9o1JdlbJ">
-                <h1 class="caption"  id ="cap" >techOus.github.io</h1>
-              </div>
-              <div class="col-md-6 col-sm-6">
-                <img id ="fafa" onclick="location.href='https://github.com/TechOUs/TechOus-logo'" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_NQVYSpfykVFnFV7SIOdXD_YnHvdW6CuXLH7doEVzc_eWxEgI">
-                <h1 class="caption"  id ="cap" >techOus logo</h1>
-              </div>
+        <div class="container-fluid">
+          <div class="row" style="display:flex; flex-wrap:wrap;">
+            <div class="col-md-6 col-sm-6">
+                <img id ="fafa" onclick="location.href='https://github.com/TechOUs/algOrithms'" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQZoRUftitLag-MNErPME7dS-Pmisoc3_ND2TaKwQHToKJKTV7">
+              <h1 class="caption" id ="cap">Algorithms</h1>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <img id ="fafa" onclick="location.href='https://github.com/TechOUs/Data-Structures'" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0DYw7lLnwQ7XIPqJDqSzMmgP8MgwvULeT5mFvKL6HERKUA15OYQ">
+              <h1 class="caption" id ="cap">Data-Structures</h1>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <img id ="fafa" onclick="location.href='https://github.com/TechOUs/techous.github.io'" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOYkAgGrttelVru4lfEu44oenZmAuGOxSD27w5DFS9o1JdlbJ">
+              <h1 class="caption"  id ="cap" >techOus.github.io</h1>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <img id ="fafa" onclick="location.href='https://github.com/TechOUs/TechOus-logo'" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_NQVYSpfykVFnFV7SIOdXD_YnHvdW6CuXLH7doEVzc_eWxEgI">
+              <h1 class="caption"  id ="cap" >techOus logo</h1>
             </div>
           </div>
+        </div>
     </section>
 
-  <section class="section3">
-    <h2 id="creator"> <span id="about-creator">Our T</span>eam </h1>
-<div class="row ">
-  <div class="col-md-3 col-sm-6">
-    <img id="imageStyle" src="https://scontent.fluh2-1.fna.fbcdn.net/v/t1.0-9/1782141_440174756113115_1367770388_n.jpg?_nc_cat=0&oh=8e93d5dab9eae678def54fe0617c0536&oe=5C19CCB9">
-    <h3>Nidhi Mittal</h3>
-    <p> Co-Founder</p>
-    <i class="fa fa-github" title ="Github" id="fafa" onclick="window.location.href='https://github.com/nidhimittal2'" style="font-size:60px"></i>
-    <i class="fa fa-facebook" title ="Facebook" id="fafa" onclick="window.location.href='https://www.facebook.com/nidhi.nida?fb_dtsg_ag=AdwcVwYgPteQgyh4w5UsxmjY8aQ6HCn5rZyrzqhqdJMW9w%3AAdx6UbVgwgfRnuhy_PmqT9u3Dv5hLNpYOqOIUzRBk1GqIA'"  style="font-size:60px"></i>
-
-  </div>
-  <div class="col-md-3 col-sm-6">
-    <img id="imageStyle" src="https://scontent.fluh2-1.fna.fbcdn.net/v/t1.0-9/26166983_1658377484229159_4683799812665550909_n.jpg?_nc_cat=0&oh=e76da8bf506f22b829726ab29bf52f51&oe=5C2E553C">
-    <h3>Aniket Batabyal</h3>
-    <p>Administrator</p>
-    <i class="fa fa-github" title ="Github" id="fafa" onclick="window.location.href='https://github.com/anarchymonkey'" style="font-size:60px"></i>
-    <i class="fa fa-facebook" id="fafa" title ="Facebook" onclick="window.location.href='https://www.facebook.com/aniket.batabyal'" style="font-size:60px"></i>
-
-  </div>
-    <div class="col-md-3 col-sm-6">
-    <img id="imageStyle" src="https://scontent.fluh2-1.fna.fbcdn.net/v/t1.0-9/15327384_917609701672100_5140036886276112874_n.jpg?_nc_cat=0&oh=671d1dcd1e0ce85f67e5c880f3e87b46&oe=5C30FF4E">
-    <h3>Neelesh Vashist</h3>
-    <p> Member </p>
-    <i class="fa fa-github" title ="Github" id="fafa" onclick="window.location.href='https://github.com/nvkepler'" style="font-size:60px"></i>
-    <i class="fa fa-facebook" title ="Facebook" id="fafa" onclick="window.location.href='https://www.facebook.com/nvkepler?fb_dtsg_ag=AdwcVwYgPteQgyh4w5UsxmjY8aQ6HCn5rZyrzqhqdJMW9w%3AAdx6UbVgwgfRnuhy_PmqT9u3Dv5hLNpYOqOIUzRBk1GqIA'" style="font-size:60px"></i>
-
-  </div>
-    <div class="col-md-3 col-sm-6">
-    <img id="imageStyle" src="https://media.licdn.com/dms/image/C5603AQFyP1GUIBlRgA/profile-displayphoto-shrink_200_200/0?e=1541030400&v=beta&t=BGFwgIhFkTPA43ujIr-GCdnsfIFsKU2xTNNHcZh2snU">
-    <h3>Neha Rajpoot</h3>
-    <p> Member </p>
-    <i class="fa fa-github" title ="Github" id="fafa" onclick="window.location.href='https://github.com/RajpootNeha'" style="font-size:60px"></i>
-    <i class="fa fa-facebook" title ="Facebook" id="fafa" onclick="window.location.href='https://www.facebook.com/neha.rajpoot.3950?fb_dtsg_ag=AdwcVwYgPteQgyh4w5UsxmjY8aQ6HCn5rZyrzqhqdJMW9w%3AAdx6UbVgwgfRnuhy_PmqT9u3Dv5hLNpYOqOIUzRBk1GqIA'" style="font-size:60px"></i>
-
-  </div>
-</div>
-  </section>
-
-  <footer>
-    <!-- Footer -->
-<footer>
-
-    <!-- Footer Links -->
-    <div id="row1" class="container-fluid text-center text-md-left">
-
-      <!-- Grid row -->
-
-      <div  style="padding-top: 80px;">
-       <div class="row" style="padding-top: 120px;">
-
-        <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
-
-          <!-- Content -->
-          <h5 class="text-uppercase">For more information</h5>
-          <h3 class="contact-us">Contact us on</h3>
-          <li class="email"> aniket1106.cse16@chitkara.edu.in
-            <li class="email"> nidhi1565.cse16@chitkara.edu.in
-              <li class="email">abc@gmail.com
-
+    <!-- TEAM SECTION -->
+    <section class="section3">
+      <h2 id="creator"> <span id="about-creator">Our T</span>eam </h1>
+      <div class="row ">
+        <div class="col-md-3 col-sm-6">
+          <img id="imageStyle" src="https://scontent.fluh2-1.fna.fbcdn.net/v/t1.0-9/1782141_440174756113115_1367770388_n.jpg?_nc_cat=0&oh=8e93d5dab9eae678def54fe0617c0536&oe=5C19CCB9">
+          <h3>Nidhi Mittal</h3>
+          <p> Co-Founder</p>
+          <i class="fa fa-github" title ="Github" id="fafa" onclick="window.location.href='https://github.com/nidhimittal2'" style="font-size:60px"></i>
+          <i class="fa fa-facebook" title ="Facebook" id="fafa" onclick="window.location.href='https://www.facebook.com/nidhi.nida?fb_dtsg_ag=AdwcVwYgPteQgyh4w5UsxmjY8aQ6HCn5rZyrzqhqdJMW9w%3AAdx6UbVgwgfRnuhy_PmqT9u3Dv5hLNpYOqOIUzRBk1GqIA'"  style="font-size:60px"></i>
         </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none pb-3">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-
-            <!-- Links -->
-            <h5 class="links-head">Links</h5>
-
-            <ul class="links">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3">
-
-            <!-- Links -->
-            <h5 class="links-head">Links</h5>
-
-            <ul class="links">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-
-          </div>
-          <!-- Grid column -->
-
+        <div class="col-md-3 col-sm-6">
+          <img id="imageStyle" src="https://scontent.fluh2-1.fna.fbcdn.net/v/t1.0-9/26166983_1658377484229159_4683799812665550909_n.jpg?_nc_cat=0&oh=e76da8bf506f22b829726ab29bf52f51&oe=5C2E553C">
+          <h3>Aniket Batabyal</h3>
+          <p>Administrator</p>
+          <i class="fa fa-github" title ="Github" id="fafa" onclick="window.location.href='https://github.com/anarchymonkey'" style="font-size:60px"></i>
+          <i class="fa fa-facebook" id="fafa" title ="Facebook" onclick="window.location.href='https://www.facebook.com/aniket.batabyal'" style="font-size:60px"></i>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <img id="imageStyle" src="https://scontent.fluh2-1.fna.fbcdn.net/v/t1.0-9/15327384_917609701672100_5140036886276112874_n.jpg?_nc_cat=0&oh=671d1dcd1e0ce85f67e5c880f3e87b46&oe=5C30FF4E">
+          <h3>Neelesh Vashist</h3>
+          <p> Member </p>
+          <i class="fa fa-github" title ="Github" id="fafa" onclick="window.location.href='https://github.com/nvkepler'" style="font-size:60px"></i>
+          <i class="fa fa-facebook" title ="Facebook" id="fafa" onclick="window.location.href='https://www.facebook.com/nvkepler?fb_dtsg_ag=AdwcVwYgPteQgyh4w5UsxmjY8aQ6HCn5rZyrzqhqdJMW9w%3AAdx6UbVgwgfRnuhy_PmqT9u3Dv5hLNpYOqOIUzRBk1GqIA'" style="font-size:60px"></i>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <img id="imageStyle" src="https://media.licdn.com/dms/image/C5603AQFyP1GUIBlRgA/profile-displayphoto-shrink_200_200/0?e=1541030400&v=beta&t=BGFwgIhFkTPA43ujIr-GCdnsfIFsKU2xTNNHcZh2snU">
+          <h3>Neha Rajpoot</h3>
+          <p> Member </p>
+          <i class="fa fa-github" title ="Github" id="fafa" onclick="window.location.href='https://github.com/RajpootNeha'" style="font-size:60px"></i>
+          <i class="fa fa-facebook" title ="Facebook" id="fafa" onclick="window.location.href='https://www.facebook.com/neha.rajpoot.3950?fb_dtsg_ag=AdwcVwYgPteQgyh4w5UsxmjY8aQ6HCn5rZyrzqhqdJMW9w%3AAdx6UbVgwgfRnuhy_PmqT9u3Dv5hLNpYOqOIUzRBk1GqIA'" style="font-size:60px"></i>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <img id="imageStyle" src="https://media.licdn.com/dms/image/C5603AQFyP1GUIBlRgA/profile-displayphoto-shrink_200_200/0?e=1541030400&v=beta&t=BGFwgIhFkTPA43ujIr-GCdnsfIFsKU2xTNNHcZh2snU">
+            <h3>Gaurav Walia</h3>
+            <p> Member </p>
+            <i class="fa fa-github" title ="Github" id="fafa" onclick="window.location.href='https://github.com/GauravWalia19'" style="font-size:60px"></i>
+            <i class="fa fa-facebook" title ="Facebook" id="fafa" onclick="window.location.href='https://www.facebook.com/neha.rajpoot.3950?fb_dtsg_ag=AdwcVwYgPteQgyh4w5UsxmjY8aQ6HCn5rZyrzqhqdJMW9w%3AAdx6UbVgwgfRnuhy_PmqT9u3Dv5hLNpYOqOIUzRBk1GqIA'" style="font-size:60px"></i>
+        </div>
       </div>
-      <!-- Grid row -->
-      
-</div>
-  </footer>
-  <!-- Footer Links -->
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2019 Copyright:
-    <a style="color:white" href="#"> techOus Organization</a>
-  </div>
-  <!-- Copyright -->
-  </footer>
+    </section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="public/index.js"></script>
+    <footer>
+      <!-- Footer Links -->
+      <div id="row1" class="container-fluid text-center text-md-left">
+        
+        <!-- Grid row -->
+        <div style="padding-top: 80px;">
+          <div class="row" style="padding-top: 120px;">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+              <!-- Content -->
+              <h5 class="text-uppercase">For more information</h5>
+              <h3 class="contact-us">Contact us on</h3>
+              <li class="email"> aniket1106.cse16@chitkara.edu.in</li>
+              <li class="email"> nidhi1565.cse16@chitkara.edu.in</li>
+              <li class="email">abc@gmail.com</li>
+            </div>
+
+            <!-- Grid column -->
+            <hr class="clearfix w-100 d-md-none pb-3">
+  
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+              <!-- Links -->
+              <h5 class="links-head">Links</h5>
+              <ul class="links">
+                <li>
+                  <a href="#!">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!">Link 4</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+              <!-- Links -->
+              <h5 class="links-head">Links</h5>
+              <ul class="links">
+                <li>
+                  <a href="#!">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!">Link 4</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a style="color:white" href="#"> techOus Organization</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/index.js"></script>
   </body>
 </html>
