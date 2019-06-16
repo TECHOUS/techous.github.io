@@ -1,7 +1,17 @@
-# techous.github.io
+# [techous.github.io](https://techous.github.io/)
 
-### Welcome to the  Tech Of us community , to check out our website click here
-*  https://techous.github.io/
-## The website for the techous members
-    * Nidhi Mittal
-    * Aniket Batabyal
+This repository contains the code for the Tech Of us [community website](https://techous.github.io/).
+
+## CONTRIBUTION
+
+If you want to contribute then you have to follow these [contribution details](CONTRIBUTING.md)
+
+## LICENSE
+
+This repo is having [MIT LICENSE](LICENSE)
+
+## AUTHORS
+
+* Nidhi Mittal
+* Aniket Batabyal
+* GauravWalia19
