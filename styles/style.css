@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0; }
+
 h3 {
   font-size: 2em; }
 
@@ -6,25 +10,55 @@ i {
   color: white; }
 
 #main-section {
-  background: #227daa;
-  display: table;
+  background-color: #227daa;
+  display: block;
   width: 100%;
-  height: 700px;
-  position: relative; }
+  min-height: 100vh; }
 
-#main-section > .header {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 10px 100px;
+#header-image-div {
+  padding-top: 50px;
   text-align: center; }
 
-.header {
-  padding: 100px 100px;
-  display: block;
-  overflow: auto;
-  color: white; }
+#header-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+  z-index: 1; }
 
-#under {
+#header-info {
+  text-align: center;
+  margin-top: 0%;
+  color: white;
+  width: 100%; }
+
+#focus-line {
+  margin-top: 15%;
+  font-family: "Anton", sans-serif;
+  font-size: 4.5em;
+  color: #2e3033;
+  color: white;
+  width: 100%; }
+
+#magic {
+  margin-top: 10%;
+  font-size: 25px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  font-family: "Indie Flower", cursive; }
+
+#focus-point {
+  margin-top: 10%;
+  font-size: 25px;
+  color: #deeef5;
+  letter-spacing: 1px;
+  font-family: "Acme", sans-serif; }
+
+#btnred {
+  margin-top: 5%;
+  font-family: "Acme", sans-serif;
+  font-size: 20px; }
+
+.under {
   border-bottom: 1px solid white;
   color: white;
   opacity: 0.9;
@@ -33,243 +67,137 @@ i {
 #fade {
   opacity: 0.8; }
 
-#focus-line {
-  font-family: "Anton", sans-serif;
-  font-size: 5em;
-  color: white;
-  width: 100%; }
+.bold {
+  font-weight: bold; }
 
-#magic {
-  font-size: 14px;
-  color: #aac7d9;
-  margin-bottom: 10px;
-  letter-spacing: 0.5px;
-  padding: 10px 10px;
-  font-family: "Indie Flower", cursive; }
-
-#focus-point {
-  font-size: 30px;
-  color: #deeef5;
-  letter-spacing: 1px;
-  font-family: "Acme", sans-serif; }
-
-#btnred {
-  font-family: "Acme", sans-serif; }
-
-.intro {
-  position: absolute;
-  width: 50%;
-  top: 40px;
-  left: 100px;
-  color: white; }
-
-.secton1 {
-  background-color: white;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 1.5em;
-  color: white;
-  font-family: "Anton", sans-serif;
-  font-style: normal;
-  display: table;
-  width: 100%;
-  height: 700px;
-  padding: 100px 100px;
-  display: block;
-  overflow: auto; }
-
-.secton1 p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-family: "EB Garamond", serif;
-  text-align: center;
-  color: black; }
-
-#creator {
-  text-align: left;
-  font-family: "Raleway", sans-serif;
-  color: white; }
-
-#about-creator {
-  border-bottom: 1px solid lime;
-  border-width: thick; }
-
-#creator-main {
-  text-align: left;
-  font-family: "Raleway", sans-serif;
-  color: #227daa; }
-
-#about-creator-main {
+.underline {
   border-bottom: 1px solid #227daa;
   border-width: thick; }
 
-.content {
+#project-section {
   text-align: center;
-  position: relative;
-  margin: 0; }
-
-#authors {
-  font-size: 30px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 5px;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  opacity: 0.8;
-  color: black; }
-
-#author-line {
-  border-bottom: 1px solid red;
-  border-width: thick; }
-
-#author-description {
-  margin-top: 5em;
-  overflow: hidden; }
-
-.education {
-  background: #227daa;
-  display: table;
   width: 100%;
-  height: 420px;
-  position: relative; }
-
-.education-info {
-  text-align: center;
-  color: white;
-  margin-top: 12em; }
-
-#btech {
-  font-family: "Acme", sans-serif; }
-
-.section2 {
-  text-align: center;
-  display: table;
-  width: 100%;
-  height: 700px;
-  position: relative;
-  padding: 10px 100px;
+  min-height: 100vh;
   background: white; }
 
-.section2 h3 {
-  color: black;
-  margin: 0 auto;
-  padding: 50px 30px; }
+#project-heading {
+  font-family: "Raleway", sans-serif;
+  color: #227daa; }
 
-.section2 h1 {
-  font-family: "PT Sans", sans-serif;
-  text-align: center; }
+#project-section h3 {
+  color: black; }
 
-.section2 img {
+.project-img {
+  height: 200px;
+  width: 250px;
   border: 1px solid black;
   border-style: inset;
-  border-radius: 10%;
-  margin-top: 10em; }
+  border-radius: 30px;
+  margin-top: 50px;
+  cursor: pointer; }
 
 .caption {
   text-align: center;
-  color: black; }
-
-#cap {
+  color: black;
   font-family: "Indie Flower", cursive; }
 
-#fafa {
-  cursor: pointer; }
+.col-md-6 {
+  margin: auto; }
 
-.section3 {
+#container-inner-div {
+  display: flex;
+  flex-wrap: wrap; }
+
+#team-heading {
+  color: white; }
+
+#team-underline {
+  border-bottom: 1px solid lime;
+  border-width: thick; }
+
+#team-section {
   background: #2e3033;
-  align-items: center;
-  padding: 50px 5%;
+  padding: 20px 5%;
   text-align: center;
-  display: table;
   width: 100%;
-  height: 700px;
-  position: relative; }
+  min-height: 101vh; }
 
-.section3 img {
-  width: 70%;
+#team-section-members {
+  margin-top: 6%; }
+
+.member-img {
+  height: 180px;
+  width: 180px;
   border-radius: 10%;
   border: 1px solid black;
   border-style: inset;
-  margin-top: 10em; }
+  margin-top: 10%;
+  opacity: 0.9; }
 
-.section3 h3 {
+.member-img:hover {
+  opacity: 1; }
+
+.fade {
+  opacity: 0.2; }
+
+#team-section h3 {
   box-sizing: border-box;
   text-align: center;
   font-size: 40px;
   font-family: "Indie Flower";
   color: white; }
 
-.section3 h1 {
-  text-align: center; }
-
-.section3 p {
+#team-section p {
   font-size: 2em;
   font-family: "Indie Flower", cursive;
   color: white; }
 
-.row {
-  max-width: 100%; }
+.fa:hover {
+  opacity: 0.8; }
+
+footer {
+  background-color: #227daa;
+  min-height: 30vh;
+  padding: 10px; }
 
 .email {
   color: white; }
 
 .text-uppercase {
   color: #fdfdfd;
-  font-size: 20px;
-  padding-top: 10px;
+  font-size: 25px;
+  padding-top: 20px;
   font-family: "Anton", sans-serif; }
 
 .contact-us {
   font-family: "Anton", sans-serif;
   color: #fdfdfd; }
 
-footer {
-  background-color: #227daa;
-  background-size: cover; }
-
-footer p {
-  padding-top: 10%;
-  color: red; }
-
-.links-head {
-  color: #fdfdfd;
-  font-size: 30px;
-  font-family: "Anton", sans-serif; }
-
-.links {
-  color: white;
-  padding-right: 30px;
-  list-style-type: none; }
-
 .footer-copyright {
-  padding-top: 7%;
+  padding-top: 50px;
   color: #fdfdfd; }
 
-@media(max-width: 500px) {
-  .header {
-    width: 565px; }
+@media (min-width: 768px) and (max-width: 991px) {
+  #focus-line {
+    margin-top: 10%; }
 
-  .secton1 {
-    width: 565px; }
+  #team-section {
+    min-height: 110vh; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #focus-line {
+    margin-top: 10%; }
 
-  .education {
-    width: 565px; }
+  #team-section-members {
+    margin-top: 13%; } }
+@media screen and (min-width: 1200px) {
+  #header-image {
+    height: 250px;
+    width: 250px; }
 
-  .section2 {
-    width: 565px; }
+  #focus-line, #magic, #focus-point {
+    margin-top: 5%; }
 
-  .section3 {
-    width: 565px; }
-
-  .row {
-    padding-left: 35px; }
-
-  #row1 {
-    width: 565px;
-    background-color: #227daa; } }
+  #team-section-members {
+    margin-top: 13%; } }
 
 /*# sourceMappingURL=style.css.map */
