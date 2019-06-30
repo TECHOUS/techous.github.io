@@ -1,0 +1,5 @@
+# IGNORE FILES
+
+*.css.map
+.sass-cache
+.scss-cache
