@@ -26,3 +26,10 @@ for(var i = 0 ; i<creator.length;i++)
     this.style.textShadow = "0.5px 0.2px"
   });
 }
+
+// joining button script
+let buttons = document.getElementsByClassName('card-button');
+
+buttons[0].addEventListener('click',function(){
+  location.href = "https://github.com/TechOUs/Join-TechOUs";
+})

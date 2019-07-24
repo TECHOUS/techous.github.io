@@ -1,6 +1,7 @@
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  scroll-behavior: smooth; }
 
 h3 {
   font-size: 2em; }
@@ -23,7 +24,11 @@ i {
   height: 200px;
   width: 200px;
   border-radius: 150px;
-  z-index: 1; }
+  z-index: 1;
+  opacity: 0.98; }
+
+#header-image:hover {
+  opacity: 1; }
 
 #header-info {
   text-align: center;
@@ -69,6 +74,10 @@ i {
 
 .bold {
   font-weight: bold; }
+
+#navigation {
+  position: fixed;
+  color: blue; }
 
 .underline {
   border-bottom: 1px solid #227daa;
@@ -132,9 +141,6 @@ i {
   border: 1px solid black;
   border-style: inset;
   margin-top: 10%;
-  opacity: 0.9; }
-
-.member-img:hover {
   opacity: 1; }
 
 .fade {
@@ -152,15 +158,59 @@ i {
   font-family: "Indie Flower", cursive;
   color: white; }
 
-.fa:hover {
+.fab:hover {
   opacity: 0.8; }
+
+#join-section {
+  text-align: center; }
+
+#join-underline {
+  border-bottom: 1px solid lime;
+  border-width: thick; }
+
+#join-section-cards {
+  padding: 5px; }
+
+.join-section-card {
+  display: block;
+  width: 85%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px; }
+
+.card-icon {
+  padding: 0;
+  color: #227daa; }
+
+.card-content {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px; }
+
+.card-button {
+  padding: 10px;
+  width: 90%;
+  margin: 10px;
+  border-radius: 10px;
+  border: 0; }
 
 footer {
   background-color: #227daa;
   min-height: 30vh;
   padding: 10px; }
 
-.email {
+.email,
+.email:hover,
+.email:active,
+.email:link {
   color: white; }
 
 .text-uppercase {
@@ -198,6 +248,21 @@ footer {
     margin-top: 5%; }
 
   #team-section-members {
-    margin-top: 13%; } }
+    margin-top: 13%; }
+
+  .member-img {
+    opacity: 0.9; }
+
+  .member-img:hover {
+    opacity: 1; }
+
+  .project-img {
+    transition: transform 0.2s; }
+
+  .project-img:hover {
+    transform: scale(1.25); }
+
+  .fade {
+    opacity: 0.2; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,8 +8,9 @@
     <link rel="icon" href="images/favicon.ico" />
 
     <!-- FONT AWESOME STYLES-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <script src="https://kit.fontawesome.com/2765dd7685.js" async></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css"> -->
+
     <!-- BOOTSTRAP STYLES-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
@@ -22,8 +23,14 @@
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <script src="scripts/index.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
   </head>
   <body>
+    <nav id="navigation">
+      <i class="fas fa-cloud fa-3x"></i>
+    </nav>
     <!-- HEADER SECTION -->
     <header>
       <div id="main-section">
@@ -34,12 +41,12 @@
         <div id="header-info">
           <h1 id="focus-line">OPEN SOURCE ORGANIZATION </h1>
           <p id="magic"> where the magic is made </p>
-          <p id="focus-point"> Specializing in small group projects and providing a platform for the newbies </p>
+          <p id="focus-point"> Builder of incredible technology around us and providing a platform for the newbies </p>
           <button class="btn btn-large btn-danger" id="btnred" onclick="window.location.href='https://github.com/TechOUs'">Click here to look at our Community </button>
         </div>
       </div>
     </header>
-
+    
     <!-- PROJECTS SECTION -->
     <section id="project-section">
         
@@ -76,8 +83,8 @@
             </div>
 
             <div class="col-md-6 col-sm-6">
-              <img class="project-img" onclick="location.href='https://github.com/TechOUs/node-review-app'" src="images/projects/node-review.png">
-              <h3 class="caption">Node Review App</h3>
+              <img class="project-img" onclick="location.href='https://github.com/TechOUs/Profile-Builder'" src="images/projects/profile-builder.png">
+              <h3 class="caption">Profile Builder</h3>
             </div>
           </div>
         </div>
@@ -91,43 +98,77 @@
       </h2>
 
       <div id="team-section-members">
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-4 col-sm-6">
           <img class="member-img fade" src="images/members/techous.png">
           <h3>Nidhi Mittal</h3>
-          <p> Co-Founder</p>
-          <i class="fa fa-github fa-3x" title ="Github" onclick="window.location.href='https://github.com/nidhimittal2'"></i>
-          <i class="fa fa-facebook fa-3x" title ="Facebook" onclick="window.location.href='https://www.facebook.com/nidhi.nida?fb_dtsg_ag=AdwcVwYgPteQgyh4w5UsxmjY8aQ6HCn5rZyrzqhqdJMW9w%3AAdx6UbVgwgfRnuhy_PmqT9u3Dv5hLNpYOqOIUzRBk1GqIA'" ></i>
+          <p>Co-Founder</p>
+          <i class="fab fa-github fa-3x" title ="Github" onclick="window.location.href='https://github.com/nidhimittal2'"></i>
+          <i class="fab fa-facebook fa-3x" title ="Facebook" onclick="window.location.href='https://www.facebook.com/nidhi.nida?fb_dtsg_ag=AdwcVwYgPteQgyh4w5UsxmjY8aQ6HCn5rZyrzqhqdJMW9w%3AAdx6UbVgwgfRnuhy_PmqT9u3Dv5hLNpYOqOIUzRBk1GqIA'" ></i>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <img class="member-img fade" src="images/members/techous.png">
+        <div class="col-md-4 col-sm-6">
+          <img class="member-img" src="images/members/bata.jpeg">
           <h3>Aniket Batabyal</h3>
           <p>Administrator</p>
-          <i class="fa fa-github fa-3x" title ="Github" onclick="window.location.href='https://github.com/anarchymonkey'"></i>
-          <i class="fa fa-facebook fa-3x" title ="Facebook" onclick="window.location.href='https://www.facebook.com/aniket.batabyal'"></i>
+          <i class="fab fa-github fa-3x" title ="Github" onclick="window.location.href='https://github.com/anarchymonkey'"></i>
+          <i class="fab fa-facebook fa-3x" title ="Facebook" onclick="window.location.href='https://www.facebook.com/aniket.batabyal'"></i>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <img class="member-img fade" src="images/members/techous.png">
-          <h3>Neelesh Vashist</h3>
-          <p> Member </p>
-          <i class="fa fa-github fa-3x" title ="Github" onclick="window.location.href='https://github.com/nvkepler'"></i>
-          <i class="fa fa-facebook fa-3x" title ="Facebook" onclick="window.location.href='https://www.facebook.com/nvkepler?fb_dtsg_ag=AdwcVwYgPteQgyh4w5UsxmjY8aQ6HCn5rZyrzqhqdJMW9w%3AAdx6UbVgwgfRnuhy_PmqT9u3Dv5hLNpYOqOIUzRBk1GqIA'"></i>
-        </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-4 col-sm-6">
           <img class="member-img" src="images/members/gaurav.jpg">
           <h3>Gaurav Walia</h3>
-          <p> Member </p>
-          <i class="fa fa-github fa-3x" title ="Github" onclick="window.location.href='https://github.com/GauravWalia19'"></i>
-          <i class="fa fa-facebook fa-3x" title ="Facebook" onclick="window.location.href='https://www.facebook.com/gaurav.walia.9256'"></i>
+          <p>Administrator</p>
+          <i class="fab fa-github fa-3x" title ="Github" onclick="window.location.href='https://github.com/GauravWalia19'"></i>
+          <i class="fab fa-facebook fa-3x" title ="Facebook" onclick="window.location.href='https://www.facebook.com/gaurav.walia.9256'"></i>
+        </div>
+      </div>
+    </section>
+    
+    <!-- JOIN ORG SECTION -->
+    <section id="join-section">
+      <h2 id="join-heading"> 
+        <span id="join-underline">Connect with u</span>s
+        <i class="fas card-icon fa-link"></i> 
+      </h2>
+      <div id="join-section-cards">
+
+        <!-- JOIN CARD -->
+        <div class="join-section-card">
+          <div class="card-img-div">
+            <img src="images/join-techous.png" alt="" class="card-img">
+          </div>
+          <div class="card-content">
+            <h4>Join TechOUs</h4>
+            <button class="card-button btn-success" id="join-button">
+              join
+            </button>
+          </div>
+        </div>
+
+        <div class="join-section-card">
+          <div class="card-img-div">
+            <i class="fas fa-heart card-icon fa-3x"></i>
+          </div>
+          <div class="card-content">
+            <h4>Become a Sponser</h4>
+          </div>
+        </div>
+        
+        <div class="join-section-card">
+          <div class="card-img-div">
+            <i class="fa fa-donate card-icon fa-3x"></i>
+          </div>
+          <div class="card-content">
+            <h4>Donate</h4>
+          </div>
         </div>
       </div>
     </section>
 
     <footer class="text-center"> 
       <div>
-            <h5 class="text-uppercase">For more information</h5>
-            <h3 class="contact-us">Contact us on</h3>
-            <p class="email">aniket1106.cse16@chitkara.edu.in</p>
-            <p class="email">gauravwalia019@gmail.com</p>
+        <h5 class="text-uppercase">For more information</h5>
+        <h3 class="contact-us">Contact us on</h3>
+        <p><a href="mailto:aniket1106.cse16@chitkara.edu.in" class="email">aniket1106.cse16@chitkara.edu.in</a></p>
+        <p><a href="mailto:gauravwalia019@gmail.com" class="email">gauravwalia019@gmail.com</a></p>
       </div>
       
 
@@ -136,8 +177,5 @@
         <a style="color:white" href="https://github.com/TechOUs"> techOus Organization</a>
       </div>
     </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="scripts/index.js"></script>
   </body>
 </html>
