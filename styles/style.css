@@ -60,6 +60,7 @@ i {
 
 #btnred {
   margin-top: 5%;
+  margin-bottom: 10%;
   font-family: "Acme", sans-serif;
   font-size: 20px; }
 
@@ -75,9 +76,51 @@ i {
 .bold {
   font-weight: bold; }
 
-#navigation {
+#navigation-icon {
   position: fixed;
-  color: blue; }
+  color: #227daa;
+  z-index: 2; }
+
+#topNavigation {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2e3033;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center; }
+
+.nav-links {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  padding: 30px; }
+
+.nav-links:link,
+.nav-links:active,
+.nav-links:visited {
+  text-decoration: none; }
+
+.nav-links:hover {
+  opacity: 0.8;
+  color: white; }
+
+#closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+  font-size: 36px;
+  color: white; }
+
+#closebtn:hover {
+  text-decoration: none; }
 
 .underline {
   border-bottom: 1px solid #227daa;
@@ -87,11 +130,13 @@ i {
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  background: white; }
+  padding-bottom: 50px; }
 
 #project-heading {
   font-family: "Raleway", sans-serif;
-  color: #227daa; }
+  color: #227daa;
+  margin: 0;
+  padding: 40px; }
 
 #project-section h3 {
   color: black; }
@@ -164,6 +209,9 @@ i {
 #join-section {
   text-align: center; }
 
+#join-heading {
+  padding-top: 60px; }
+
 #join-underline {
   border-bottom: 1px solid lime;
   border-width: thick; }
@@ -175,8 +223,8 @@ i {
   display: block;
   width: 85%;
   margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   border-radius: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
@@ -185,6 +233,9 @@ i {
   height: 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px; }
+
+.card-img-div {
+  padding: 20px; }
 
 .card-icon {
   padding: 0;
