@@ -207,7 +207,8 @@ i {
   opacity: 0.8; }
 
 #join-section {
-  text-align: center; }
+  text-align: center;
+  min-height: 80vh; }
 
 #join-heading {
   padding-top: 60px; }
@@ -278,18 +279,30 @@ footer {
   padding-top: 50px;
   color: #fdfdfd; }
 
+@media (min-width: 600px) and (max-width: 767px) {
+  .join-section-card {
+    width: 70%; } }
 @media (min-width: 768px) and (max-width: 991px) {
   #focus-line {
     margin-top: 10%; }
 
   #team-section {
-    min-height: 110vh; } }
+    min-height: 110vh; }
+
+  .join-section-card {
+    width: 60%; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   #focus-line {
     margin-top: 10%; }
 
   #team-section-members {
-    margin-top: 13%; } }
+    margin-top: 13%; }
+
+  .join-section-card:nth-child(1),
+  .join-section-card:nth-child(2) {
+    width: 40%;
+    display: inline-block;
+    margin: 15px; } }
 @media screen and (min-width: 1200px) {
   #header-image {
     height: 250px;
@@ -314,6 +327,21 @@ footer {
     transform: scale(1.25); }
 
   .fade {
-    opacity: 0.2; } }
+    opacity: 0.2; }
+
+  .card-icon:nth-child(1) {
+    font-size: 120px;
+    padding: 16%; }
+
+  .join-section-card {
+    width: 28%;
+    display: inline-block;
+    margin: 20px; }
+
+  #join-section-cards {
+    padding-top: 100px; }
+
+  #join-techous {
+    padding-top: 2%; } }
 
 /*# sourceMappingURL=style.css.map */

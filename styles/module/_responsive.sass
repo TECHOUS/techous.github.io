@@ -1,9 +1,16 @@
+// large mobiles
+@media (min-width: 600px) and (max-width: 767px)
+  .join-section-card
+    width: 70%
+
 // tablets
 @media (min-width: 768px) and (max-width: 991px)
   #focus-line
     margin-top: 10%
   #team-section
     min-height: 110vh
+  .join-section-card
+    width: 60%
 
 // tablet / desktop
 @media (min-width: 992px) and (max-width: 1199px)
@@ -11,6 +18,11 @@
     margin-top: 10%
   #team-section-members
     margin-top: 13%
+  .join-section-card:nth-child(1),
+  .join-section-card:nth-child(2)
+    width: 40%
+    display: inline-block
+    margin: 15px
 
 // large devices
 @media screen and (min-width: 1200px)  
@@ -38,3 +50,19 @@
 
   .fade
     opacity: 0.2
+  
+  .card-icon:nth-child(1)
+    // border: 1px solid red
+    font-size: 120px
+    padding: 16%
+
+  .join-section-card
+    width: 28%
+    display: inline-block
+    margin: 20px
+  
+  #join-section-cards
+    padding-top: 100px
+  
+  #join-techous
+    padding-top: 2%
