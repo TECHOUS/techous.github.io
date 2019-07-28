@@ -1,6 +1,7 @@
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  scroll-behavior: smooth; }
 
 h3 {
   font-size: 2em; }
@@ -23,7 +24,11 @@ i {
   height: 200px;
   width: 200px;
   border-radius: 150px;
-  z-index: 1; }
+  z-index: 1;
+  opacity: 0.98; }
+
+#header-image:hover {
+  opacity: 1; }
 
 #header-info {
   text-align: center;
@@ -55,6 +60,7 @@ i {
 
 #btnred {
   margin-top: 5%;
+  margin-bottom: 10%;
   font-family: "Acme", sans-serif;
   font-size: 20px; }
 
@@ -70,6 +76,52 @@ i {
 .bold {
   font-weight: bold; }
 
+#navigation-icon {
+  position: fixed;
+  color: #227daa;
+  z-index: 2; }
+
+#topNavigation {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2e3033;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center; }
+
+.nav-links {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  padding: 30px; }
+
+.nav-links:link,
+.nav-links:active,
+.nav-links:visited {
+  text-decoration: none; }
+
+.nav-links:hover {
+  opacity: 0.8;
+  color: white; }
+
+#closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+  font-size: 36px;
+  color: white; }
+
+#closebtn:hover {
+  text-decoration: none; }
+
 .underline {
   border-bottom: 1px solid #227daa;
   border-width: thick; }
@@ -78,11 +130,13 @@ i {
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  background: white; }
+  padding-bottom: 50px; }
 
 #project-heading {
   font-family: "Raleway", sans-serif;
-  color: #227daa; }
+  color: #227daa;
+  margin: 0;
+  padding: 40px; }
 
 #project-section h3 {
   color: black; }
@@ -132,9 +186,6 @@ i {
   border: 1px solid black;
   border-style: inset;
   margin-top: 10%;
-  opacity: 0.9; }
-
-.member-img:hover {
   opacity: 1; }
 
 .fade {
@@ -152,15 +203,66 @@ i {
   font-family: "Indie Flower", cursive;
   color: white; }
 
-.fa:hover {
+.fab:hover {
   opacity: 0.8; }
+
+#join-section {
+  text-align: center;
+  min-height: 80vh; }
+
+#join-heading {
+  padding-top: 60px; }
+
+#join-underline {
+  border-bottom: 1px solid lime;
+  border-width: thick; }
+
+#join-section-cards {
+  padding: 5px; }
+
+.join-section-card {
+  display: block;
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px; }
+
+.card-img-div {
+  padding: 20px; }
+
+.card-icon {
+  padding: 0;
+  color: #227daa; }
+
+.card-content {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px; }
+
+.card-button {
+  padding: 10px;
+  width: 90%;
+  margin: 10px;
+  border-radius: 10px;
+  border: 0; }
 
 footer {
   background-color: #227daa;
   min-height: 30vh;
   padding: 10px; }
 
-.email {
+.email,
+.email:hover,
+.email:active,
+.email:link {
   color: white; }
 
 .text-uppercase {
@@ -177,18 +279,30 @@ footer {
   padding-top: 50px;
   color: #fdfdfd; }
 
+@media (min-width: 600px) and (max-width: 767px) {
+  .join-section-card {
+    width: 70%; } }
 @media (min-width: 768px) and (max-width: 991px) {
   #focus-line {
     margin-top: 10%; }
 
   #team-section {
-    min-height: 110vh; } }
+    min-height: 110vh; }
+
+  .join-section-card {
+    width: 60%; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   #focus-line {
     margin-top: 10%; }
 
   #team-section-members {
-    margin-top: 13%; } }
+    margin-top: 13%; }
+
+  .join-section-card:nth-child(1),
+  .join-section-card:nth-child(2) {
+    width: 40%;
+    display: inline-block;
+    margin: 15px; } }
 @media screen and (min-width: 1200px) {
   #header-image {
     height: 250px;
@@ -198,6 +312,36 @@ footer {
     margin-top: 5%; }
 
   #team-section-members {
-    margin-top: 13%; } }
+    margin-top: 13%; }
+
+  .member-img {
+    opacity: 0.9; }
+
+  .member-img:hover {
+    opacity: 1; }
+
+  .project-img {
+    transition: transform 0.2s; }
+
+  .project-img:hover {
+    transform: scale(1.25); }
+
+  .fade {
+    opacity: 0.2; }
+
+  .card-icon:nth-child(1) {
+    font-size: 120px;
+    padding: 16%; }
+
+  .join-section-card {
+    width: 28%;
+    display: inline-block;
+    margin: 20px; }
+
+  #join-section-cards {
+    padding-top: 100px; }
+
+  #join-techous {
+    padding-top: 2%; } }
 
 /*# sourceMappingURL=style.css.map */

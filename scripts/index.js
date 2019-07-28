@@ -26,3 +26,29 @@ for(var i = 0 ; i<creator.length;i++)
     this.style.textShadow = "0.5px 0.2px"
   });
 }
+
+// joining button script
+let buttons = document.getElementsByClassName('card-button');
+
+buttons[1].addEventListener('click',function(){
+  location.href = "https://join.slack.com/t/techousworkspace/shared_invite/enQtNjk2OTAxMTY1NjY2LTQyYTJmMWIzMDRiMGU1NGIxNjI5NTg2NzUxNWI5ZGNmN2E0NDIzZDI1NDg1MjRmYjlhMTJmMjQ4ODg2OTRjNWU";
+})
+buttons[2].addEventListener('click',function(){
+  location.href="https://github.com/TechOUs/Join-TechOUs";
+})
+
+document.getElementById('navigation-icon').addEventListener('click',openTopNav);
+
+let links = document.getElementsByClassName('nav-links');
+for(let i=0;i<links.length;i++)
+{
+  links[i].addEventListener('click',closeTopNav);
+}
+
+function openTopNav() {
+  document.getElementById("topNavigation").style.width = "100%";
+}
+
+function closeTopNav() {
+  document.getElementById("topNavigation").style.width = "0";
+}

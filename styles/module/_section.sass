@@ -1,7 +1,5 @@
-$back: rgba(34,125,170,1)
-
 .underline
-  border-bottom: 1px solid rgba(34,125,170,1) 
+  border-bottom: 1px solid $color1
   border-width: thick
 
 // PROJECTS SECTION
@@ -9,11 +7,13 @@ $back: rgba(34,125,170,1)
   text-align: center
   width: 100%
   min-height: 100vh
-  background: white
+  padding-bottom: 50px
 
 #project-heading
   font-family: 'Raleway', sans-serif
   color: rgba(34,125,170,1)
+  margin: 0
+  padding: 40px
 
 #project-section h3
   color: black
@@ -64,9 +64,6 @@ $back: rgba(34,125,170,1)
   border: 1px solid black
   border-style: inset
   margin-top: 10%
-  opacity: 0.9
-
-.member-img:hover
   opacity: 1
 
 .fade
@@ -84,5 +81,55 @@ $back: rgba(34,125,170,1)
   font-family: 'Indie Flower', cursive
   color: white
 
-.fa:hover
+.fab:hover
   opacity: 0.8
+
+
+// JOIN SECTION
+#join-section
+  text-align: center
+  min-height: 80vh
+
+#join-heading
+  padding-top: 60px
+
+#join-underline
+  border-bottom: 1px solid lime
+  border-width: thick
+
+#join-section-cards
+  padding: 5px
+
+.join-section-card
+  display: block
+  width: 85%
+  margin: auto
+  margin-top: 30px
+  margin-bottom: 30px
+  border-radius: 20px
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+
+.card-img
+  width: 100%
+  height: 100%
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+
+.card-img-div
+  padding: 20px
+
+.card-icon
+  padding: 0
+  color: rgba(34,125,170,1)
+
+.card-content
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+  padding: 10px
+
+.card-button
+  padding: 10px
+  width: 90%
+  margin: 10px
+  border-radius: 10px
+  border: 0

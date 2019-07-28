@@ -13,6 +13,10 @@
   width: 200px
   border-radius: 150px
   z-index: 1
+  opacity: 0.98
+
+#header-image:hover
+  opacity: 1
 
 #header-info
   text-align: center
@@ -44,6 +48,7 @@
 
 #btnred
   margin-top: 5%
+  margin-bottom: 10%
   font-family: 'Acme', sans-serif
   font-size: 20px
 
@@ -59,4 +64,49 @@
 .bold
   font-weight: bold
 
+#navigation-icon
+  position: fixed
+  color: $color1
+  z-index: 2
 
+// styles for topnav
+#topNavigation
+  height: 100%
+  width: 0
+  position: fixed
+  z-index: 1
+  top: 0
+  left: 0
+  background-color: rgb(46, 48, 51)
+  overflow-x: hidden
+  transition: 0.5s
+  padding-top: 60px
+  text-align: center
+
+.nav-links
+  text-decoration: none
+  font-size: 25px
+  color: white
+  display: block
+  transition: 0.3s
+  padding: 30px
+
+.nav-links:link,
+.nav-links:active,
+.nav-links:visited
+  text-decoration: none
+
+.nav-links:hover
+  opacity: 0.8
+  color: white
+
+#closebtn 
+  position: absolute
+  top: 0
+  right: 0
+  margin-right: 10px
+  font-size: 36px
+  color: white
+
+#closebtn:hover
+  text-decoration: none
