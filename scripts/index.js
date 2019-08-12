@@ -30,6 +30,9 @@ for(var i = 0 ; i<creator.length;i++)
 // joining button script
 let buttons = document.getElementsByClassName('card-button');
 
+buttons[0].addEventListener('click',function(){
+  location.href = "https://medium.com/@techous18";
+})
 buttons[1].addEventListener('click',function(){
   location.href = "https://join.slack.com/t/techousworkspace/shared_invite/enQtNjk2OTAxMTY1NjY2LTQyYTJmMWIzMDRiMGU1NGIxNjI5NTg2NzUxNWI5ZGNmN2E0NDIzZDI1NDg1MjRmYjlhMTJmMjQ4ODg2OTRjNWU";
 })
