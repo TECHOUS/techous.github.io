@@ -182,7 +182,7 @@ i {
 .member-img {
   height: 180px;
   width: 180px;
-  border-radius: 10%;
+  border-radius: 15%;
   border: 1px solid black;
   border-style: inset;
   margin-top: 10%;
@@ -203,7 +203,7 @@ i {
   font-family: "Indie Flower", cursive;
   color: white; }
 
-.fab:hover {
+.fab:hover, .fas:hover {
   opacity: 0.8; }
 
 #join-section {
@@ -287,7 +287,7 @@ footer {
     margin-top: 10%; }
 
   #team-section {
-    min-height: 110vh; }
+    min-height: 155vh; }
 
   .join-section-card {
     width: 60%; } }
@@ -296,7 +296,10 @@ footer {
     margin-top: 10%; }
 
   #team-section-members {
-    margin-top: 13%; }
+    margin-top: 1%; }
+
+  #team-section {
+    min-height: 110vh; }
 
   .join-section-card:nth-child(1),
   .join-section-card:nth-child(2) {
@@ -312,7 +315,10 @@ footer {
     margin-top: 5%; }
 
   #team-section-members {
-    margin-top: 13%; }
+    margin-top: 2%; }
+
+  #team-section {
+    min-height: 110vh; }
 
   .member-img {
     opacity: 0.9; }
